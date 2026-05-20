@@ -1,6 +1,8 @@
 name: Update GitHub Readme Cards
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -15,6 +17,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
