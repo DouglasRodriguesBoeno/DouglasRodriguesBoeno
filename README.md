@@ -95,8 +95,8 @@ My work involves frontend and backend development, API integrations, scalable ar
 ## GitHub stats
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=DouglasRodriguesBoeno&show_icons=true&theme=tokyonight&hide_border=true" alt="Douglas GitHub stats" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DouglasRodriguesBoeno&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+  <img height="170em" src="./assets/github-stats.svg" alt="Douglas GitHub stats" />
+  <img height="170em" src="./assets/top-langs.svg" alt="Top Langs" />
 </div>
 
 ---
